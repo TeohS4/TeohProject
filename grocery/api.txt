@@ -1,0 +1,63 @@
+To Create
+PRODUCT
+{
+    "name" : "Pineapple Pizza",
+    "price" : "19.50",
+    "category_id" : 3
+}
+USER
+{
+    "username" : "Teoh Wei Jie",
+    "email" : "teoh99@hotmail.com",
+    "password" : "#Abc1234",
+    "gender" : "male",
+    "address" : "123 street",
+    "dob" : "1999-10-20"
+}
+ORDER
+{
+    "name" : "Teoh",
+    "phone" : "01234567890",
+    "email" : "teoh99@hotmail.com",
+    "payment_method" : "Credit Card",
+    "address" : "1, Lorong Jambu Madu 4",
+    "total_products" : "Avocado (3), Fresh Milk (1)",
+    "total_price" : "12.50"
+}
+
+To Update
+PRODUCT
+{
+    "id" : "25",
+    "name" : "Watermelon",
+    "price" : "9.60",
+    "category_id" : 1
+}
+USER
+{
+    "id" : "8",
+    "username" : "Lee",
+    "email" : "lee123@hotmail.com",
+    "password" : "@Abc647452",
+    "gender" : "male",
+    "address" : "Oxford street ave",
+    "dob" : "2000-05-25"
+}
+ORDER
+{
+    "id" : "4",
+    "name" : "Teoh",
+    "phone" : "01234567890",
+    "email" : "teoh99@hotmail.com",
+    "payment_method" : "Credit Card",
+    "address" : "1, Lorong Jambu Madu 4",
+    "total_products" : "Avocado (3), Fresh Milk (1)",
+    "total_price" : "12.50"
+}
+To delete
+{
+    "id" : ""
+}
+
+To search
+search.php?s=
